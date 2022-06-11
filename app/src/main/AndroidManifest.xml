@@ -3,10 +3,10 @@
 
     <application
         android:allowBackup="true"
-        android:label="FMRadio Without Headphones">
+        android:label="FMRadio Without Headphones" >
         <meta-data
             android:name="xposedmodule"
-            android:value="true" />
+            android:value="true"/>
         <meta-data
             android:name="xposeddescription"
             android:value="FMRadio Without Headphones." />
@@ -15,6 +15,6 @@
             android:value="53" />
         <meta-data
             android:name="xposedscope"
-            android:resource="@array/xposed_scope"/>
+            android:resource="@array/xposed_scope" />
     </application>
 </manifest>
