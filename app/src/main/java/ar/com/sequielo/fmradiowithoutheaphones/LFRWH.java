@@ -16,7 +16,7 @@ public class LFRWH implements IXposedHookLoadPackage {
         XposedBridge.log("[LFRWH] started");
 
         // https://github.com/LineageOS/android_packages_apps_FMRadio/blob/lineage-18.1/src/com/android/fmradio/FmService.java#L365
-        // https://github.com/LineageOS-eXtended/android_packages_apps_FMRadio/commit/f55656492904e35d7678f7d61881190579a547f8
+        // https://github.com/sonyxperiadev/vendor-qcom-opensource-fm
        findAndHookMethod("com.caf.fmradio.FMRadioService", lpparam.classLoader, "isAntennaAvailable", new XC_MethodReplacement() {
             @Override
             protected Object replaceHookedMethod(XC_MethodHook.MethodHookParam methodHookParam) throws Throwable {
