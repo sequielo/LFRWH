@@ -30,6 +30,6 @@ The usage of microphone antenna is suggested:
 
 * MinSDK need to be upgraded to the LineageOS version that started used CAF radio, currently is on 23.
 
-# Size: 
+# Size compiled: 
 
 < 10 KB 
