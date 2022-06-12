@@ -6,9 +6,8 @@ An Xposed module to use LineageOS FMRadio without Headphones.
 
 Based on the following sources:
 
-- https://github.com/LineageOS/android_packages_apps_FMRadio/blob/lineage-18.1/src/com/android/fmradio/FmService.java#L365
-- https://github.com/sonyxperiadev/vendor-qcom-opensource-fm
-
+- https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys/blob/lineage-19.1/fmapp2/src/com/caf/fmradio/FMRadioService.java#L2219
+- https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys
 # What's new:
 
 * Addressed compatibility with LineageOS 19.1,
