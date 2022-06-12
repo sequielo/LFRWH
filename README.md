@@ -18,6 +18,8 @@ Based on the following sources:
 
 * Upgraded dependencies,
 
+* Fixed LSPosed Manager log spam.
+
 # Hardware peripheral:
 
 The usage of microphone antenna is suggested:
@@ -26,6 +28,8 @@ The usage of microphone antenna is suggested:
 
 # Issues:
 
-* Currently spam LSPosed Manager with logs need to be addressed,
-
 * MinSDK need to be upgraded to the LineageOS version that started used CAF radio, currently is on 23.
+
+# Size: 
+
+< 10 KB 
