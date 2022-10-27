@@ -10,7 +10,7 @@ Based on the following sources:
 - https://github.com/LineageOS/android_vendor_qcom_opensource_fm-commonsys
 # What's new:
 
-* Addressed compatibility with LineageOS 19.1,
+* Addressed compatibility with LineageOS 19.1, LineageOS 20.0
 
 * Added support for LSPosed,
 
@@ -19,6 +19,8 @@ Based on the following sources:
 * Upgraded dependencies,
 
 * Fixed LSPosed Manager log spam.
+
+* Tested on beryllium with LineageOS 19.1 and mido with LineageOS 20.0
 
 # Hardware peripheral:
 
